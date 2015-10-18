@@ -1,1 +1,1 @@
-jsx --watch src/ build/
+jsx --watch src/ build/ --harmony

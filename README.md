@@ -119,12 +119,5 @@ http://reactkr.github.io/react/docs/animation-ko-KR.html
 * ReactCSSTransitionGroup
 * key 어트리뷰트에 대한 단서
   *  ReactCSSTransitionGroup의 모든 자식은 key 어트리뷰트를 반드시 만들어야 합니다. 한 아이템을 렌더한다 해도 예외는 아닙니다. 키는 React가 어떤 자식이 들어오고, 나가고, 머무르는지 파악할 때 사용합니다.
-
 * 자식들에게 트랜지션을 적용하려면 ReactCSSTransitionGroup은 이미 DOM에 마운트되어 있어야 합니다.
 * 각 포인트별 후커
-
-
-
-
-
-테스트는 어떻게 할까?

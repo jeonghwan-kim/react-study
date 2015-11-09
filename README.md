@@ -1,6 +1,8 @@
 React Study
 ===========
 
+## 코드 실행
+
 Start develpment:
 
 ```
@@ -122,8 +124,72 @@ http://reactkr.github.io/react/docs/animation-ko-KR.html
 * 자식들에게 트랜지션을 적용하려면 ReactCSSTransitionGroup은 이미 DOM에 마운트되어 있어야 합니다.
 * 각 포인트별 후커
 
+#### 양방향 바인딩 헬퍼
+
+http://reactkr.github.io/react/docs/two-way-binding-helpers-ko-KR.html
+
+* ReactLink
+* React는 기본적으로는 단방향 데이터 흐름임.
+>ReactLink는 얇은 레퍼고 onChange/setState()패턴 부분의 관례일 뿐입니다. React 애플리케이션에서의 데이터 흐름을 근본적으로 바꾸지는 않습니다.
+* mixin에 대한 단서
+
+#### 테스트 유틸리티
+
+http://reactkr.github.io/react/docs/test-utils-ko-KR.html
+
+* [Jest](https://facebook.github.io/jest/)
+* 테스트는 어떻게 할까? 위 링크 참고
 
 
+#### 성능도구
 
+http://reactkr.github.io/react/docs/perf-ko-KR.html
 
-테스트는 어떻게 할까?
+### [처음 시작하는 리액트 : UI를 위한 자바스크립트 라이브러리 ReactJS](http://www.hanbit.co.kr/ebook/look.html?isbn=9788968487750)
+
+#### 1. React 소개
+
+#### 2. JSX
+
+* JavaScript XML
+* 순수 js에 비해 디버깅 용이
+* &&의 특수한 사용법
+* class가 아닌 className
+
+#### 3. 컴포넌트 라이프 사이클
+
+#### 4. 데이터 흐름
+
+#### 5. 이벤트 처리
+
+#### 6. 컴포넌트 구성
+
+#### 7. 믹스인
+
+#### 8. Dom 조작
+
+#### 9. 폼
+
+#### 10. 애니메이션
+
+#### 11. 성능개선
+
+#### 12. 서버 사이드 렌더링
+
+#### 13. React 패밀리
+
+#### 14. 개발 도구
+
+#### 15. 테스트
+
+#### 16. 설계 패턴
+
+#### 17. 그밖의 사용법
+
+## 공부할 것
+
+* ~~Examples~~
+* [Jest](https://facebook.github.io/jest/)
+* Webframeworks
+
+* [React fullstack](https://github.com/kriasoft/react-starter-kit)

@@ -158,13 +158,44 @@ http://reactkr.github.io/react/docs/perf-ko-KR.html
 
 #### 3. 컴포넌트 라이프 사이클
 
+초기화:
+
+* getDefaultProps
+* getInitialState: 인스턴스 생성시 마다 호출
+* componentWillMount
+* render
+* componentDidMount: 실제 돔을 조작할수 있는 시점
+
+실행시:
+
+* ComponentWillReceiveProps
+* shouldComponentUpdate
+* componentWillUpdate
+* componentDidUpdate
+
+분해와 정리:
+
+* componentWillUnMount
+
+안티패턴들
+
+
 #### 4. 데이터 흐름
+
+* React 컴포넌트는 props, state 두 값을 이용해 가상 표현 객체를 생성하는 함수
+* props
+* state: setState()나 getInitialStat에서 기본값 설정
 
 #### 5. 이벤트 처리
 
 #### 6. 컴포넌트 구성
 
+* 상속이 아닌 구성, 결합
+* 자식 컴포넌트가 부모 컴포넌트로 이벤트를 알리는 방법
+
 #### 7. 믹스인
+
+
 
 #### 8. Dom 조작
 

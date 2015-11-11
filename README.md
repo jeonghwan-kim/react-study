@@ -195,11 +195,21 @@ http://reactkr.github.io/react/docs/perf-ko-KR.html
 
 #### 7. 믹스인
 
-
+> 믹스인은 코드 반복을 제거하고 컴포넌트가 필요한 부분에만 집중할 수 있게 도와주는 강력한 도구다
 
 #### 8. Dom 조작
 
+* componentDidount에서 getDomNode()로 접근. 제한적으로 사용해야
+* autoComplete
+
 #### 9. 폼
+
+* 비제어 컴포턴트. 부모 컴포넌트가 제어할 수 없는. defaultValue, ref
+* 제어 컴포넌트. 부모 컴포넌트가 제어할 수 있는. value를 부모 컴포넌트의 상태에 저장.
+* 폼 이벤트. Synthetic event 사용
+* lable에서 for를 사용할 수 없음. js 예약어. htmlFor를 사용. className도 마찬가지.
+
+
 
 #### 10. 애니메이션
 

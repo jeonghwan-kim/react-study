@@ -208,14 +208,37 @@ http://reactkr.github.io/react/docs/perf-ko-KR.html
 * 제어 컴포넌트. 부모 컴포넌트가 제어할 수 있는. value를 부모 컴포넌트의 상태에 저장.
 * 폼 이벤트. Synthetic event 사용
 * lable에서 for를 사용할 수 없음. js 예약어. htmlFor를 사용. className도 마찬가지.
+* 포커스, autoFocus. 기본적으로 제공함 
 
+사용성
 
+* 요구사항을 명확하게 제시하라
+* 지속적으로 피드백을 제공하라 
+* 속도에 신경써라 
+* 예측 가능하게 만들어라 
+* 접근성을 높여라 
+* 사용자 입력은 적을 수록 좋다 
 
 #### 10. 애니메이션
 
+* Not imperative, React is declarative 
+* 태랜지션 클래스 스타일 적용. angular animation과 비슷함
+
+
 #### 11. 성능개선
 
+* shouldComponentUpdate
+* 개발자 도구에서 React.addons.Pref.start()로 측정
+* key 사용. 여기서 나오는군.
+
+
 #### 12. 서버 사이드 렌더링
+
+* 검색엔진 노출을 위해 서버 사이드 렌더링이 필요한데 React Virtual DOM이 그 역할을 할 수 있다.
+* React.renderToString
+* React.renderToStaticMarkup
+
+
 
 #### 13. React 패밀리
 
@@ -234,3 +257,6 @@ http://reactkr.github.io/react/docs/perf-ko-KR.html
 * Webframeworks
 
 * [React fullstack](https://github.com/kriasoft/react-starter-kit)
+
+
+

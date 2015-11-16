@@ -208,20 +208,20 @@ http://reactkr.github.io/react/docs/perf-ko-KR.html
 * 제어 컴포넌트. 부모 컴포넌트가 제어할 수 있는. value를 부모 컴포넌트의 상태에 저장.
 * 폼 이벤트. Synthetic event 사용
 * lable에서 for를 사용할 수 없음. js 예약어. htmlFor를 사용. className도 마찬가지.
-* 포커스, autoFocus. 기본적으로 제공함 
+* 포커스, autoFocus. 기본적으로 제공함
 
 사용성
 
 * 요구사항을 명확하게 제시하라
-* 지속적으로 피드백을 제공하라 
-* 속도에 신경써라 
-* 예측 가능하게 만들어라 
-* 접근성을 높여라 
-* 사용자 입력은 적을 수록 좋다 
+* 지속적으로 피드백을 제공하라
+* 속도에 신경써라
+* 예측 가능하게 만들어라
+* 접근성을 높여라
+* 사용자 입력은 적을 수록 좋다
 
 #### 10. 애니메이션
 
-* Not imperative, React is declarative 
+* Not imperative, React is declarative
 * 태랜지션 클래스 스타일 적용. angular animation과 비슷함
 
 
@@ -238,15 +238,34 @@ http://reactkr.github.io/react/docs/perf-ko-KR.html
 * React.renderToString
 * React.renderToStaticMarkup
 
-
-
 #### 13. React 패밀리
+
+* Jest: Facebook이 Jasmine을 이용해 만든 test runner,  
+* Immutable.js. 또 새로운것 발견
+* Flux: Facebook이 React와 함께 공개한 일종의 패턴
 
 #### 14. 개발 도구
 
+* 두가지 빌드 툴: Browserify, Webpack
+* Browserify: nodejs의 require 를 브라우져에서 사용
+* 압축 툴:  uglify, envify(디버깅 코드와 상세 에러 메시지를 제거)
+* Watchify, npm run Watch
+* 디버깅 툴
+
 #### 15. 테스트
 
+* Single Responsibility Principle, A law of demeter
+* 빨강, 초록, 리팩토링
+* 단위테스트, 기능테스트
+* 테스트 방법. 실습
+* mock, spy, event
+* 믹스인 테스트
+* 브라우져 테스트 자동화: CasperJS
+
 #### 16. 설계 패턴
+
+* 라우터: Backbone.router, Aviator, react-router
+* Store
 
 #### 17. 그밖의 사용법
 
@@ -257,6 +276,3 @@ http://reactkr.github.io/react/docs/perf-ko-KR.html
 * Webframeworks
 
 * [React fullstack](https://github.com/kriasoft/react-starter-kit)
-
-
-
